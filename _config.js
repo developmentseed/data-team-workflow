@@ -1,7 +1,7 @@
 module.exports = {
   baseurl: 'http://devseed.com/doc-seed',
-  title: 'Doc Seed',
-  description: 'A quick way to create a documentation site',
+  title: 'Data & Annotation team ',
+  description: 'Development Seed’s Data and Annotation team produces high-quality geodata and machine learning labels',
 
   attribution: {
     role: 'Developed for',
@@ -11,7 +11,7 @@ module.exports = {
   },
 
   sectionsMeta: {
-    's0-introduction': 'Introduction',
+    's0-introduction': 'About',
     's1-components': 'Components'
   }
 };
