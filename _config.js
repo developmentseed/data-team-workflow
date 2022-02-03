@@ -9,9 +9,8 @@ module.exports = {
     logo: 'generic-logo-pos-hor.svg',
     url: 'https://developmentseed.org'
   },
-
   sectionsMeta: {
     's0-introduction': 'About',
-    's1-components': 'Components'
+    's1-workflows': 'Workflows'
   }
 };
