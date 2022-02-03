@@ -1,6 +1,6 @@
 ---
 title: Data & Annotation team 
-date: 2012-08-20
+date: 2022-08-20
 layout: post.html
 permalink: /
 ---
