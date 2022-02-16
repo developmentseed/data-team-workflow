@@ -1,10 +1,10 @@
 {
-  "name": "doc-seed",
+  "name": "data-team-workflow",
   "version": "0.1.0",
   "description": "Development Seed's documentation site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/developmentseed/doc-seed"
+    "url": "https://github.com/developmentseed/data-team-workflow"
   },
   "author": {
     "name": "Development Seed",
@@ -12,15 +12,16 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/developmentseed/doc-seed/issues"
+    "url": "https://github.com/developmentseed/data-team-workflow/issues"
   },
-  "homepage": "",
+  "homepage": "https://devseed.com/data-team-workflow/",
   "scripts": {
     "postinstall": "[ -f _config-dev.js ] || echo \"module.exports = {\n  baseurl: 'http://localhost:3000'\n};\" > _config-dev.js",
     "serve": "DS_ENV=development gulp collecticons && DS_ENV=development gulp serve",
     "build": "DS_ENV=production NODE_ENV=production gulp",
     "lint": "eslint app/assets/scripts/ --ext .js",
-    "test": "echo \"No tests\" && exit 0"
+    "test": "echo \"No tests\" && exit 0",
+    "deploy": "yarn run build && gh-pages -d build/"
   },
   "engines": {
     "node": "8.x"
@@ -59,6 +60,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1",
+    "gh-pages": "^3.2.3",
     "gulp": "^3.9.1",
     "gulp-cache": "^1.0.1",
     "gulp-csso": "^3.0.0",

@@ -1,5 +1,5 @@
 module.exports = {
-  baseurl: 'http://devseed.com/doc-seed',
+  baseurl: 'http://devseed.com/data-team-workflow',
   title: 'Data & Annotation team ',
   description: 'Development Seed’s Data and Annotation team produces high-quality geodata and machine learning labels',
 

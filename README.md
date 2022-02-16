@@ -21,6 +21,7 @@ nvm install
 npm install
 yarn build #clean & build everything and put it into dist folder
 yarn serve #serve the pages and utilize live reload on changes to fonts, images, scripts and HTML.
+yarn deploy # to publish the site
 ```
 
 ## Configuration of Doc Seed
