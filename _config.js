@@ -11,7 +11,9 @@ module.exports = {
   },
   sectionsMeta: {
     's0-introduction': 'About',
-    's1-workflows': 'Workflows',
-    's2-highlighted-projects': 'Highlighted projects'
+    's1-workflow': 'Workflow',
+    's2-annotation-type': 'Annotation type',
+    's3-mapping': 'Mapping',
+    's4-highlighted-projects': 'Highlighted projects'
   }
 };
