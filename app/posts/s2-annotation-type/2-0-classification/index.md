@@ -46,7 +46,6 @@ Development Seed's data-team has built its own tools to address these types of c
 
 The list below of shows the tools that data-team use for image classification 👇
 
-
 ## Chip-ahoy
 
 An open source tool, used for validating machine learning chips.
@@ -66,7 +65,6 @@ An open source tool, used for validating map tiles chips
 Java OpenStreetMap editor as know as JOSM is an open source tool, that can work for map tiles classification too, our engineering has expericice customizing this tool for our own purposes.
 
 ![](https://paper-attachments.dropbox.com/s_1981A5ECF2AEB06EE992A475685270D2AAD678C2973A8357A8ADEF766F86DBA2_1645046387826_unicef_p3_josm.gif)
-
 
 ## Image classification Projects
 
