@@ -34,16 +34,37 @@ Used for validating map tiles chips
 
 Our statistics demonstrate the efficiency of the tools and data-team at image classification.
 
-| Num clases per image | Images per hour |
-| -------------------- | --------------- |
-| 1          | 1,000           |
-| 2          | 800             |
-| 3          | 700             |
-| 4          | 600             |
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Num clases per image</th>
+      <th scope="col">Images per hour</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1,000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>600</td>
+    </tr>
+  </tbody>
+</table>
 
 
+The following list shows the projects of image classification for Machine Learning training data
 
-
+- [Project-connect]()
 
 
 
