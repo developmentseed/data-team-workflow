@@ -36,7 +36,7 @@
 
 
 
-<link rel="stylesheet" href="http://devseed.com/data-team-workflow/assets/styles/main-2b530cfd84.css">
+<link rel="stylesheet" href="http://devseed.com/data-team-workflow/assets/styles/main-793cc9aa39.css">
 
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
     <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
@@ -135,20 +135,6 @@
 
 
 
-<ul class="ppn__menu">
-  
-  <li>
-      
-      <a href="http://devseed.com/data-team-workflow/annotation-type/od-projects" title="Go to page" class="ppn__menu-item ">OD projects</a>
-      
-
-
-
-
-  </li>
-  
-</ul>
-
   </li>
   
   <li>
@@ -158,20 +144,6 @@
 
 
 
-
-<ul class="ppn__menu">
-  
-  <li>
-      
-      <a href="http://devseed.com/data-team-workflow/annotation-type/segmentation-projects" title="Go to page" class="ppn__menu-item ">Segmentation projects</a>
-      
-
-
-
-
-  </li>
-  
-</ul>
 
   </li>
   
@@ -285,7 +257,118 @@
             <div class="inpage__body">
               <div class="inner">
                 <div class="prose prose--responsive">
-                  
+                  <h2>Tracing San Francisco buildings</h2>
+<p>As the main goal for improving the data of buildings in San Francisco, the Data team mapped buildings in 2 cities as Menlo Park and Mountain View, so 173,447 buildings were added. In order to do mapping work easier and faster, the Data team uses the building plugin that is available on JOSM (Java OpenStreetMap Editor).</p>
+<h4>Tools that Data team used:</h4>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a> as an editor, where Data team can do easier and faster the editions.
+<ul>
+<li>Building plugin</li>
+</ul>
+</li>
+<li><a href="https://tasks.openstreetmap.us/">Tasking Manager</a> for dividing the AOI into small areas in order to each mapper can select a task, and avoid conflicts.</li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_1.gif"/>
+</figure>
+<h2>Mapping and Aligning road network in Taiwan based on new Mapbox imagery and Strava</h2>
+<p>At the end of 2016, the members of the Data team were part of the road network mapping and alignment efforts in Taiwan, this work was carried out based on an OpenStreetMap data quality study in Taiwan with respect to the Satellite imagery. By running a comparison against Bing Imagery and available GPS traces like <a href="http://wiki.openstreetmap.org/wiki/Strava">Strava Heat Map</a>, in which a notable data offset of 15-20 meters was observed with respect to GPS traces.</p>
+<p>With respect to data realignment, there have been some discussions on the <a href="https://lists.openstreetmap.org/pipermail/talk-tw/2016-September/001313.html">Taiwan mailing list</a> and members of Taiwan community have expressed their support in fixing these alignment problems.</p>
+<p>The data team has aligned <b>64,680kms</b> of road network in Taiwan which forms the <b>54.4%</b> of entire Taiwan road network. The overall project consisted of <b>43 tasking manager tasks</b> covering <b>27,000 sq kms</b> which is <b>74%</b> of total area of the country.</p>
+<p>The 6 cities where the aligning effort is concentrated are: Taipei, New Taipei, Hsinchu, Taichung, Yilan and Tainan.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a></li>
+<li><a href="https://tasks.openstreetmap.us/">Tasking Manager</a></li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_2.gif"/>
+    <figcaption>Mapping and Aligning road network in Taiwan.</figcaption>
+</figure>
+<h2>Los Angeles Building Import</h2>
+<p>In April 2016, the Data team helped <a href="https://wiki.openstreetmap.org/wiki/Los_Angeles,_California/Buildings_Import">LABuildings Import</a> Team to import and validate buildings in Los Angeles. This project was a community-managed import to improve building coverage of OpenStreetMap within the county and also with the objective of inviting local cartographers to participate actively in the whole process.</p>
+<p>In the first phase, the Data team helped validate buildings on the Southside LA, the Westside, Central, and Eastside. In the second phase, the Data team helped import in the Southeast of Los Angeles as San Gabriel, Verdugos, and Pomona Valley. Finally, the Data team worked in Northwest - LABuildings Import, Antelope - LABuildings Import, Angeles forest - LABuildings Import.</p>
+<p>On this project, the total of buildings imported was <b>~ 2.92 M buildings</b> where ~300 usernames/mappers participated.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a></li>
+<li><a href="https://tasks.openstreetmap.us/">Tasking Manager</a></li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_3.gif"/>
+    <figcaption>In the first phase, 527,823 buildings were imported.</figcaption>
+</figure>
+<h2>Turn lanes mapping project</h2>
+<p>One of the big projects related to navigation and guidance in which the Data team participated was the turn lanes mapping in more than <a href="https://github.com/mapbox/mapping/issues/180">30 cities in the US</a>.
+Turn-lanes provide directional information to the ongoing vehicles and the lane information to be chosen for the vehicles changing their direction. So turn lane information is crucial for providing great turn-by-turn guidance in navigation applications.</p>
+<figure class="align-center">
+  <img src="/assets/images/mapping_4.jpeg"/>
+</figure>
+<p>In order to improve workflow and speed up the mapping process, the Data team developed plugins such as the knife tool, for splitting ways and turn lanes tagging.</p>
+<p>It is so in San Francisco, Washington DC, and Los Angeles, <b>56,686</b> turn lanes were added faster and easier.</p>
+<figure class="align-center">
+  <img src="/assets/images/mapping_5.png"/>
+</figure>
+<p>In this way, the Data team collaborated with the community to expand the turn lane coverage and to improve the navigation data in OpenStreetMap.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a>
+<ul>
+<li>knife tool plugin</li>
+<li>turn lanes tagging plugin</li>
+</ul>
+</li>
+<li><a href="https://tasks.openstreetmap.us/">Tasking Manager</a></li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+<h2>Machine learning tower detection and Mapping Work</h2>
+<p>At the beginning of 2018 Development seed and the World Bank ran a project of Identification on HV, Infrastructure for developing countries, Pakistan, Zambia, and Nigeria.
+The strategy was, Running an ML to identify tower across of those 3 countries and then Data-team jump to map those places, This was a really challenging work, making the organization of the resources in ML and on the Mapping side.</p>
+<p>We completed the work in around 2,540,099 km2 in approximately 132 days, editing 131,832 objects in OpenStreetMap.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a>
+<ul>
+<li><a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/To-fix">To-fix</a> plugin</li>
+</ul>
+</li>
+<li><a href="https://tasks.openstreetmap.us/">Tasking Manager</a></li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+<li><a href="https://www.mapbox.com/mapbox-studio">Mapbox Studio</a></li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_4.gif"/>
+    <figcaption>Before (yelow) and after (green) of Pakistan HV infraestructure.</figcaption>
+</figure>
+<p>You can always read more about the documentation of [Mapping the electric grid]https://devseed.com/ml-grid-docs/)</p>
+<h2>Farm fields mapping</h2>
+<p>Data Team mapped more than 9,014 farms in North America, the main goal of this was to identify agricultural areas and determine the limits of crop fields.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a></li>
+<li>osm-seed</li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_5.gif"/>
+</figure>
+<h2>Mapping commercial farms in Ethiopia</h2>
+<p>Ethiopia’s main economic activity is Agriculture. Smallholders in Ethiopia farm around 37% of the lands and the rest 8% goes to the large-scale commercial farms. Large-scale commercial farms produce crops such as rice, maize, coffee, tea, cotton, pulse, rubber, and palm oil.</p>
+<p>Invest in agriculture is the most important and most effective strategy for poverty reduction in rural areas. As part of Ethiopia’s <a href="http://www.grips.ac.jp/forum/pdf12/JICA&amp;GDFReport_Ethiopia_phase1/Intellectual_Partnership_for_Africa/7Final_Report_ch5.pdf">development strategy</a>, the Ethiopia government has set out to attract more foreign investment in large-scale commercial agriculture as outlined in this <a href="http://www.grips.ac.jp/forum/pdf12/JICA&amp;GDFReport_Ethiopia_phase1/Intellectual_Partnership_for_Africa/7Final_Report_ch5.pdf">policy</a>.</p>
+<p>According to this, the <a href="http://projects.worldbank.org/P163383?lang=en">World Bank</a> and Devseed worked together on this large commercial farm mapping, where the Data team mapped more than 190 large commercial farms in lowlands Ethiopia. Ethiopia lowlands, usually defined as places below 1,500 meters in altitude, account for approximately 60 percent of Ethiopian territory and 12 percent of the population.</p>
+<p>Big farmlands can be visible from high-resolution satellite imagery, so in order to better locate large commercial farmlands, the Data team used multiple satellite imagery as ESRI World Imagery, and Sentinel-2 Agriculture mosaic.</p>
+<p>Tools that Data team used:</p>
+<ul>
+<li><a href="https://josm.openstreetmap.de/">JOSM</a></li>
+<li><a href="https://www.openstreetmap.org/">OpenStreetMap</a></li>
+</ul>
+<figure class="align-center">
+  <img src="/assets/images/mapping_6.png"/>
+</figure>
+<p>You can always read more about the documentation of <a href="http://devseed.com/ethiopia-docs/methods/large-commercial-farms/">large commercial farms</a></p>
+
                 </div>
               </div>
             </div>
