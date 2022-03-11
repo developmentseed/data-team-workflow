@@ -5,33 +5,38 @@ layout: post.html
 ---
 
 Machine Learning image classification projects are characterized by reviewing large amounts of images, looking for certain patterns,
- School patterns, vacant lots, crop types, 
- 
-Development data-team along with Machine Learning engineering  have built workflow and tools to review large numbers of images  in an easy way. Our statistics demonstrate the efficiency of the tools and data-team at image classification.
+School patterns, vacant lots, crop types,
+
+Development data-team along with Machine Learning engineering have built workflow and tools to review large numbers of images in an easy way. Our statistics demonstrate the efficiency of the tools and data-team at image classification.
 
 <table class="table">
   <thead>
     <tr>
       <th scope="col">Classes per image</th>
       <th scope="col">Images per hour</th>
+      <th scope="col">Min/Max image size in pixels</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>1</td>
       <td>1,000</td>
+      <td>256x256 <strong>/</strong> 2048x2048</td>
     </tr>
     <tr>
       <td>2</td>
       <td>800</td>
+      <td>256x256 <strong>/</strong> 2048x2048</td>
     </tr>
     <tr>
       <td>3</td>
       <td>700</td>
+      <td>256x256 <strong>/</strong> 2048x2048</td>
     </tr>
     <tr>
       <td>4</td>
       <td>600</td>
+      <td>256x256 <strong>/</strong> 2048x2048</td>
     </tr>
   </tbody>
 </table>
@@ -58,7 +63,7 @@ An open source tool, used for validating map tiles chips
 
 ## Java OpenStreetMap editor
 
-Java OpenStreetMap editor as know as JOSM is an open source tool, that can work for map tiles classification too, our engineering has expericice customizing this tool for our own purposes.
+Java OpenStreetMap editor, known as JOSM is an open source tool. JOSM tool works with map tiles. Points, lines and polygons editions are very flexible compared with Qgis, data-team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed). Also during years Development seed engineers got expericice customizing JOSM for our own purposes.
 
 ![](https://paper-attachments.dropbox.com/s_1981A5ECF2AEB06EE992A475685270D2AAD678C2973A8357A8ADEF766F86DBA2_1645046387826_unicef_p3_josm.gif)
 
