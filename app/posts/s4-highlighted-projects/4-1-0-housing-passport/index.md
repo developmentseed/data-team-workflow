@@ -13,5 +13,11 @@ DevelopmentSeed data team generated training data, with a large, high-quality da
 Data team labeled dataset for 8 cities in different countries such as; Colombia, Peru, Mexico, St. Maarten island and Saint Lucia, where we achieved the annotation of around 70k images among the buildings with different properties and 4 types of building parts (window, door, garage, disaster mitigation).
 
 <figure class="align-center">
+  <img src="/assets/images/housing-passport_1.gif"/>
+  <figcaption> <b>Detecting building properties in street view imagery.</b> Sample detections for building completeness (left), design (middle), and construction material (right). Notice that the models work reasonably well even with obstructions (like this bus).</figcaption>
+</figure>
+
+<figure class="align-center">
   <img src="/assets/images/housing-passport.gif"/>
+  <figcaption> <b>Registering street view detections to the map</b>. The continuous stream of images often leads to several detections per structure (left). Knowing the car’s location, heading, and camera field of view, we create a geospatial line for each bounding box detection originating at the car and pointing outward (right). We assign this detected property (and confidence) to the first building polygon (blue box) intersected.</figcaption>
 </figure>
