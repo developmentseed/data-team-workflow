@@ -42,7 +42,7 @@ Our statistics demonstrate the efficiency of the tools and data-team at image cl
 
 Development Seed's data-team has built its own tools to address these types of challenges, which allow us quick reviews.
 
-![](https://devseed.com/data-team-workflow/assets/images/classification/flowchart_type_projects-Page-5.jpg)
+![](https://devseed.com/data-team-workflow/assets/images/classification/flowchart_type_projects-Page-5.png)
 
 The list below of shows the tools that data-team use for image classification 👇
 
