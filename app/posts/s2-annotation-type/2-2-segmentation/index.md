@@ -33,7 +33,7 @@ Currently generating machine learning segmentation training data is challenging 
   </tbody>
 </table>
 
-The list below of shows the tools that data-team use for image object detection work 👇
+The list below of shows the tools that data-team use for image object detection work:
 
 
 ![image](/assets/images/segmentation.png)

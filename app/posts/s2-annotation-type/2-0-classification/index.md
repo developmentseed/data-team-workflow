@@ -45,27 +45,31 @@ Development Seed's data-team has built its own tools to address these types of c
 
 ![](https://devseed.com/data-team-workflow/assets/images/classification/flowchart_type_projects-Page-5.jpg)
 
-The list below of shows the tools that data-team use for image classification 👇
+The list below of shows the tools that data-team use for image classification:
 
 ## Chip-ahoy
 
 An open source tool, used for validating machine learning chips.
 
 ![](https://user-images.githubusercontent.com/12978932/140334426-188775bc-23e3-420c-ba24-fdc08f60ce15.gif)
+*Description...*
 
 ![](https://paper-attachments.dropbox.com/s_230DC06EACF3ACA9F9E356E4840E7091EA3153BB2E07CA5FA7F773EE60638E3E_1643650861497_chips_ahoy_image_classification.gif)
+*Description...*
 
 ## Relabeler
 
 An open source tool, used for validating map tiles chips
 
 ![](https://devseed.com/data-team-workflow/assets/images/classification/relabeler_fixed.gif)
+*Description...*
 
 ## Java OpenStreetMap editor
 
 Java OpenStreetMap editor, known as JOSM is an open source tool. JOSM tool works with map tiles. Points, lines and polygons editions are very flexible compared with Qgis, data-team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed). Also during years Development seed engineers got expericice customizing JOSM for our own purposes.
 
 ![](https://paper-attachments.dropbox.com/s_1981A5ECF2AEB06EE992A475685270D2AAD678C2973A8357A8ADEF766F86DBA2_1645046387826_unicef_p3_josm.gif)
+*Description...*
 
 ## Data-team's classification Projects
 

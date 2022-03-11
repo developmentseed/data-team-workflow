@@ -35,7 +35,7 @@ Development Seed data-team has a wide experience working in this field, and for 
   </tbody>
 </table>
 
-The list below of shows the tools that data-team use for image object detection work 👇
+The list below of shows the tools that data-team use for image object detection work:
 
 ![image](https://devseed.com/data-team-workflow/assets/images/object-detection.png)
 
