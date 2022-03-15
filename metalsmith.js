@@ -34,6 +34,7 @@ module.exports = function (opts) {
         sortBy: 'originalURI'
       }
     }))
+    .use(mdImageAbsolutePath(config.baseurl))
     .use(addPostSectionInfo())
     .use(dirHierarchy({
       name: 'hierarchy',
@@ -122,6 +123,33 @@ function originalFileURI (uriKey) {
     setImmediate(done);
     Object.keys(files).forEach(function (file) {
       files[file][uriKey] = file;
+    });
+  };
+}
+
+/**
+ * Image path fix
+ */
+function mdImageAbsolutePath (baseurl) {
+  baseurl = baseurl.endsWith('/')
+    ? baseurl.substr(0, baseurl.length - 1)
+    : baseurl;
+  return function (files, metalsmith, done) {
+    setImmediate(done);
+    const sections = ['contents', 'innovation'];
+    const regEx = new RegExp('="/assets/images', 'gm');
+    Object.keys(files).forEach(function (key) {
+      let file = files[key];
+      if (file.layout === 'post.html') {
+        sections.forEach((sec) => {
+          if (file[sec]) {
+            let content = file[sec].toString();
+            const coinc = content.match(regEx);
+            content = content.replace(regEx, `="${baseurl}/assets/images`);
+            file[sec] = Buffer.from(content, 'utf-8');
+          }
+        });
+      }
     });
   };
 }

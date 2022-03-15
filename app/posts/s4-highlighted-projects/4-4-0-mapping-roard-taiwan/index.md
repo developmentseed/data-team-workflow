@@ -13,6 +13,6 @@ The data team has aligned <b>64,680kms of road network</b> in Taiwan which forms
 The 6 cities where the aligning effort is concentrated are: Taipei, New Taipei, Hsinchu, Taichung, Yilan and Tainan.
 
 <figure class="align-center">
-  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_2.gif"/>
+  <img src="/assets/images/mapping_2.gif"/>
   <figcaption>Mapping and aligning road network in Taiwan.</figcaption>
 </figure>

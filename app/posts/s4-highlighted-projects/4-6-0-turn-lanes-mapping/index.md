@@ -8,7 +8,7 @@ One of the big projects related to navigation and guidance in which the Data tea
 Turn-lanes provide directional information to the ongoing vehicles and the lane information to be chosen for the vehicles changing their direction. So turn lane information is crucial for providing great turn-by-turn guidance in navigation applications.
 
 <figure class="align-center">
-  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_4.jpg"/>
+  <img src="/assets/images/mapping_4.jpg"/>
   <figcaption>Turn lanes classes.</figcaption>
 </figure>
 

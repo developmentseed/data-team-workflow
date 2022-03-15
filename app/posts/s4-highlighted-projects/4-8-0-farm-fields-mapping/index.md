@@ -9,6 +9,6 @@ Data Team mapped more than **9,014 farms** in North America, the main goal of th
 The Data team average, for doing the mapping field farms, varies according to the farm complexity.
 
 <figure class="align-center">
-  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_5.gif"/>
+  <img src="/assets/images/mapping_5.gif"/>
   <figcaption>Example of how fast the Data team mapped the farm fields.</figcaption>  
 </figure>

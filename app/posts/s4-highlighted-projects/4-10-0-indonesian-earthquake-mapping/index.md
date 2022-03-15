@@ -21,6 +21,6 @@ The Data team used imagery available that were taken after 15th October, then th
 Finally, having the 2 phases, the Data team created a ["layer switcher/slider" app](http://devseed.com/mercycorps-data-visualization/) to show the before and after the earthquake, this app was useful for identifying which buildings were affected by the earthquake and bringing help to people who had been affected.
 
 <figure class="align-center">
-  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_6.gif"/>
+  <img src="/assets/images/mapping_6.gif"/>
   <figcaption>It shows the before and after the Indonesian earthquake.</figcaption>
 </figure>
