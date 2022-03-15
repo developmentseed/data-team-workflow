@@ -67,4 +67,4 @@ Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool w
 
 ## Data team's object detection projects
 
-- [Project-connect - School object detection](/highlighted-projects/project-connect/)
+- [Housing Passport](/highlighted-projects/housing-passport/)
