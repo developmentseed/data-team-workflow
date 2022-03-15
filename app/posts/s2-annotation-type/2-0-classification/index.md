@@ -4,10 +4,16 @@ date: 2012-08-20
 layout: post.html
 ---
 
-Machine Learning image classification projects are characterized by reviewing large amounts of images, looking for certain patterns,
-School patterns, vacant lots, crop types,
+Machine Learning image classification projects are characterized by reviewing large amounts of images looking for certain patterns, for instance: school patterns, vacant lots, crop types, and so on.
 
-Development data-team along with Machine Learning engineering have built workflow and tools to review large numbers of images in an easy way. Our statistics demonstrate the efficiency of the tools and data-team at image classification.
+The Data team along with Machine Learning engineering have built workflow and tools to review large numbers of images in an easy way.
+
+<figure class="align-center">
+  <img src="/assets/images/flowchart_image_classification.png"/>
+  <figcaption>Input, tools, and output diagram for image classification.</figcaption>
+</figure>
+
+The statistics below demonstrate the efficiency of the tools and Data team at image classification.
 
 <table class="table">
   <thead>
@@ -41,38 +47,42 @@ Development data-team along with Machine Learning engineering have built workflo
   </tbody>
 </table>
 
-Development Seed's data-team has built its own tools to address these types of challenges, which allow us quick reviews.
+## Data team's image classification tools
 
-![](https://devseed.com/data-team-workflow/assets/images/classification/flowchart_type_projects-Page-5.png)
+Development Seed's Data team has built its own tools to address these types of challenges, which allow to Data team do quick reviews.
 
-The list below of shows the tools that data-team use for image classification:
+The list below of shows the tools that Data team use for image classification.
 
-## Chip-ahoy
+### Chips-ahoy
 
 An open source tool, used for validating machine learning chips.
 
-![](https://user-images.githubusercontent.com/12978932/140334426-188775bc-23e3-420c-ba24-fdc08f60ce15.gif)
-*Description...*
+<figure class="align-center">
+  <img src="/assets/images/image_classification_tool_chips_ahoy.gif"/>
+  <figcaption>The gif shows the school validation process where the Data team validated each of the predicted schools as either “confirmed”, “unrecognized”, and “not-school”. This tool allows the Data team to view the progress percentage of the validation process and download the data at the end of the validation process. This tool is useful when the tiles for validation are scattered.</figcaption>
+</figure>
 
-![](https://paper-attachments.dropbox.com/s_230DC06EACF3ACA9F9E356E4840E7091EA3153BB2E07CA5FA7F773EE60638E3E_1643650861497_chips_ahoy_image_classification.gif)
-*Description...*
+### Relabeler
 
-## Relabeler
+An open source tool, used for validating map tiles chips.
 
-An open source tool, used for validating map tiles chips
+<figure class="align-center">
+  <img src="/assets/images/image_classification_tool_relabeler.gif"/>
+  <figcaption>With this tool, the Data team validated 11 categories of POI's, such us: "hospital", "background", "university", "school", "place of worship", "government", "transportation", "commercial", "industry", "sport", and "residential". During the validation process, the Data team checked each bboxes according to the patterns of each category. This tool is useful when the tiles for validation are together or close to each other.</figcaption>
+</figure>
 
-![](https://devseed.com/data-team-workflow/assets/images/classification/relabeler_fixed.gif)
-*Description...*
 
-## Java OpenStreetMap editor
+### Java OpenStreetMap editor
 
-Java OpenStreetMap editor, known as JOSM is an open source tool. JOSM tool works with map tiles. Points, lines and polygons editions are very flexible compared with Qgis, data-team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed). Also during years Development seed engineers got expericice customizing JOSM for our own purposes.
+Java OpenStreetMap editor, known as JOSM is an open-source tool, this tool works with map tiles. JOSM allows the editions to be easier and faster with points, lines, and polygons compared with QGIS. The data team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed), also during years Development Seed engineers got experience customizing JOSM for their own purposes it means according to the project necessity.
 
-![](https://paper-attachments.dropbox.com/s_1981A5ECF2AEB06EE992A475685270D2AAD678C2973A8357A8ADEF766F86DBA2_1645046387826_unicef_p3_josm.gif)
-*Description...*
+<figure class="align-center">
+  <img src="/assets/images/image_classification_tool_josm.gif"/>
+  <figcaption>The gif shows the school validation process where our team validated if each school point has the school patter, and according to it add the following tag: "dc_has_pattern_school=yes", "dc_has_pattern_school=unrecognized", "dc_has_pattern_school=no". JOSM also allows the Data team to move the detection point to the school boundary center of each school in order o get the accurate school tiles.</figcaption>
+</figure>
 
-## Data-team's classification Projects
+## Data team's classification projects
 
-The following list shows the projects of image classification for Machine Learning training data
+The following list shows the projects of image classification for Machine Learning training data.
 
 - [Project-connect](/highlighted-projects/project-connect/)
