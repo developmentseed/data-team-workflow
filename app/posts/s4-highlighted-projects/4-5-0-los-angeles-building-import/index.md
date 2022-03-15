@@ -1,5 +1,5 @@
 ---
-title: Los Angeles Building Import
+title: Los Angeles building import
 date: 2012-08-23
 layout: post.html
 ---
@@ -10,9 +10,7 @@ In the first phase, the Data team helped validate buildings on the Southside LA,
 
 On this project, the total of buildings imported was <b>~ 2.92 M buildings</b> where ~300 usernames/mappers participated.
 
--- Stats
-
 <figure class="align-center">
   <img src="/assets/images/mapping_3.gif"/>
-    <figcaption>In the first phase, 527,823 buildings were imported.</figcaption>
+  <figcaption>In the first phase, 527,823 buildings were imported.</figcaption>
 </figure>
