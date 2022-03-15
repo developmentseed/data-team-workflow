@@ -34,7 +34,7 @@ module.exports = function (opts) {
         sortBy: 'originalURI'
       }
     }))
-    .use(mdImageAbsolutePath(config.baseurl))
+    .use(mdImageLinkAbsolutePath(config.baseurl, config.sectionsMeta))
     .use(addPostSectionInfo())
     .use(dirHierarchy({
       name: 'hierarchy',
@@ -130,22 +130,32 @@ function originalFileURI (uriKey) {
 /**
  * Image path fix
  */
-function mdImageAbsolutePath (baseurl) {
+function mdImageLinkAbsolutePath(baseurl, sectionsMeta) {
   baseurl = baseurl.endsWith('/')
     ? baseurl.substr(0, baseurl.length - 1)
     : baseurl;
+  sectionsMeta = Object.keys(sectionsMeta).map((i) =>
+    i.split('-').slice(1, 1000).join('-')
+  );
   return function (files, metalsmith, done) {
     setImmediate(done);
     const sections = ['contents', 'innovation'];
     const regEx = new RegExp('="/assets/images', 'gm');
+    const linkRegEx = sectionsMeta.map((i) => ({
+      regx: new RegExp(`\\(/${i}/`, 'gm'),
+      repl: `(${baseurl}/${i}/`
+    }));
+
     Object.keys(files).forEach(function (key) {
       let file = files[key];
       if (file.layout === 'post.html') {
         sections.forEach((sec) => {
           if (file[sec]) {
             let content = file[sec].toString();
-            const coinc = content.match(regEx);
             content = content.replace(regEx, `="${baseurl}/assets/images`);
+            linkRegEx.forEach((linkrex) => {
+              content = content.replace(linkrex.regx, linkrex.repl);
+            });
             file[sec] = Buffer.from(content, 'utf-8');
           }
         });
