@@ -13,7 +13,7 @@ According to this, the [World Bank](http://projects.worldbank.org/P163383?lang=e
 Big farmlands can be visible from high-resolution satellite imagery, so in order to better locate large commercial farmlands, the Data team used multiple satellite imagery as ESRI World Imagery, and Sentinel-2 Agriculture mosaic.
 
 <figure class="align-center">
-  <img src="/assets/images/mapping_6.jpg"/>
+  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_6.jpg"/>
   <figcaption>Red polygons: Ethiopia lowlands.</figcaption>
 </figure>
 

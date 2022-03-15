@@ -11,7 +11,7 @@ The strategy was, running an ML to identify tower across of those 3 countries an
 Data team completed the work in around <b>2,540,099 km²</b> in approximately 132 days, editing <b>131,832 objects</b> in [OpenStreetMap](https://www.openstreetmap.org/).
 
 <figure class="align-center">
-  <img src="/assets/images/mapping_4.gif"/>
+  <img src="https://devseed.com/data-team-workflow/assets/images/mapping_4.gif"/>
   <figcaption>Before (yelow color) and after (green color) of Pakistan HV infraestructure.</figcaption>
 </figure>
 

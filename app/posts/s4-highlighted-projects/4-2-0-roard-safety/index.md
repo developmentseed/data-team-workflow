@@ -11,6 +11,6 @@ As images source, the data team used Mapillary to obtain street view images from
 -- Stats
 
 <figure class="align-center">
-  <img src="/assets/images/object_detection_stats2.png"/>
+  <img src="https://devseed.com/data-team-workflow/assets/images/object_detection_stats2.png"/>
    <figcaption>Data team labeled around 6k images.</figcaption>
 </figure>
