@@ -18,6 +18,6 @@ Finally, the data team validated around **120k schools points**, adding one of t
 Development Seed's Data performed a validation of the ML inferences from 8 countries (Kazakhstan, Kenya, Rwanda, Niger, Honduras, Uzbekistan, Sierra Leone, and Ghana), validating more than **113k schools tiles**.
 
 <figure class="align-center">
-  <img src="/assets/images/pc_map_visualization.gif.gif"/>
+  <img src="/assets/images/pc_map_visualization.gif"/>
   <figcaption>This gif shows the comparison between the schools validated for training data and the results from ML outputs validation for Kenya. You can also see more about the <a href="http://devseed.com/project-connect-visualizations/">schools map visualizations</a> for the rest of countries.</figcaption>
 </figure>
