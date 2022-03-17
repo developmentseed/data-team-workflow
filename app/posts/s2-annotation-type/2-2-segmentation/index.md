@@ -65,4 +65,4 @@ Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool w
 
 ## Data team's segmentation projects
 
-- 
+- [Training dataset for PEARL](/highlighted-projects/training-data-pearl/)
