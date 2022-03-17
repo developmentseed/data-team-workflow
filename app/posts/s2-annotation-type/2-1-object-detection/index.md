@@ -67,5 +67,5 @@ Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an
 
 ## Data team's object detection projects
 
-- [Housing Passport](/highlighted-projects/housing-passport/)
+- [Housing Passports](/highlighted-projects/housing-passports/)
 - [Road Safety](/highlighted-projects/road-safety/)

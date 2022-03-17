@@ -65,4 +65,4 @@ Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an
 
 ## Data team's segmentation projects
 
-- [Training dataset for PEARL](/highlighted-projects/training-data-pearl/)
+- [Training dataset for PEARL](/highlighted-projects/training-dataset-for-pearl/)
