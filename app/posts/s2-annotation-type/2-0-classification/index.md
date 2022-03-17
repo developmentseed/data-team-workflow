@@ -55,7 +55,7 @@ The list below shows the tools that the Data team uses for image classification.
 
 ### Chips-ahoy
 
-An open source tool, used for validating machine learning chips. This tool is useful when the tiles for validation are scattered.
+[Chips-ahoy](https://devseed.com/chips-ahoy/) is an open-source tool, used for validating machine learning chips. This tool is useful when the tiles for validation are scattered.
 
 <figure class="align-center">
   <img src="/assets/images/image_classification_tool_chips_ahoy.gif"/>
@@ -64,7 +64,7 @@ An open source tool, used for validating machine learning chips. This tool is us
 
 ### Relabeler
 
-An open source tool, used for validating map tiles chips. This tool is useful when the tiles for validation are together or close to each other.
+[Relabeler](https://devseed.com/relabeler/) is an open-source tool, used for validating map tiles chips. This tool is useful when the tiles for validation are together or close to each other.
 
 <figure class="align-center">
   <img src="/assets/images/image_classification_tool_relabeler.gif"/>
@@ -74,7 +74,7 @@ An open source tool, used for validating map tiles chips. This tool is useful wh
 
 ### Java OpenStreetMap editor
 
-Java OpenStreetMap editor, known as JOSM is an open-source tool, this tool works with map tiles. JOSM allows the editions to be easier and faster with points, lines, and polygons compared with QGIS. The Data team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed), also during years Development Seed engineers got experience customizing JOSM for their own purposes it means according to the project necessity.
+Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an open-source tool, this tool works with map tiles. JOSM allows the editions to be easier and faster with points, lines, and polygons compared with QGIS. The Data team uses JOSM together with [osm-seed](https://github.com/developmentseed/osm-seed), also during years Development Seed engineers got experience customizing JOSM for their own purposes it means according to the project necessity.
 
 <figure class="align-center">
   <img src="/assets/images/image_classification_tool_josm.gif"/>

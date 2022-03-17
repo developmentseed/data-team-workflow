@@ -11,7 +11,7 @@ Development Seed's Data team support this project on the training data creation 
 
 Development Seed's Data team generated a high-quality training dataset, for machine learning models, using as data sources; schools provided by UNICEF and schools data from OpenStreetMap from 9 countries, which were: Rwanda, Sierra Leone, Niger, Chad, Sudan, Mali, Honduras, Kazakhstan, and Kenya.
 
-Finally, the data team validated around **120k schools points**, adding one of these tags: "dc_has_pattern_school=yes", "dc_has_pattern_school=unrecognized", "dc_has_pattern_school=no"; according the school patterns recognized in each of them.
+Finally, the Data team validated around **120k schools points**, adding one of these tags: "dc_has_pattern_school=yes", "dc_has_pattern_school=unrecognized", "dc_has_pattern_school=no"; according the school patterns recognized in each of them.
 
 ### Post inference validation
 
