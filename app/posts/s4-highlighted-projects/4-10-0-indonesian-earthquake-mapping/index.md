@@ -4,15 +4,15 @@ date: 2012-08-23
 layout: post.html
 ---
 
-The Data team whit [Mercy Corps](https://www.mercycorps.org/) worked together in order to do a mapping/analysis in response to the Indonesian Earthquake, which was October 15, 2018.
+The Data team with [Mercy Corps](https://www.mercycorps.org/) worked together in order to do a mapping/analysis in response to Indonesian Earthquake, which was on October 15, 2018.
 
-The villages, they were interested specifically, in were Sembulan Lawang and Sembulan Bumbung. The main purpose was to count and locations of buildings that were before and after the earthquake, with an indication of whether the building was damaged or not in after the earthquake, using imagery available through Digital Globe's Open Data program.
+The villages they were specifically interested in were Sembulan Lawang and Sembulan Bumbung. The main purpose was to count and locations of buildings that were before and after the earthquake, with an indication of whether the building was damaged or not in after the earthquake, using imagery available through Digital Globe's Open Data program.
 
 The Data team worked on 2 phases:
 
 <b>1. Pre-event:</b>
 
-The Data team used imagery available that were taken before 16th October, then the team mapped <b>8,860 buildings</b> in the 2 villages areas.
+The Data team used imagery available that were taken before 15th October, then the team mapped <b>8,860 buildings</b> in the 2 villages areas.
 
 <b>2. Post-event:</b>
 

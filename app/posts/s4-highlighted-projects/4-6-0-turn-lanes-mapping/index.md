@@ -23,7 +23,7 @@ It is so in [San Francisco, Washington DC, and Los Angeles](https://github.com/m
       <th scope="col">Area (km²)</th>     
       <th scope="col">Total number of turn lanes</th>
       <th scope="col">Turn lane density (per km²)</th>
-      <th scope="col">Porcentage of total turn lanes added by Data team</th>
+      <th scope="col">Porcentage of total turn lanes added by the Data team</th>
       <th scope="col">Turn lanes added per hour</th>      
     </tr>
   </thead>
