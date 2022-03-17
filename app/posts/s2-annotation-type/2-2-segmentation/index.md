@@ -4,7 +4,7 @@ date: 2012-08-20
 layout: post.html
 ---
 
-Currently generating machine learning segmentation training data is challenging work, Development Seed engineers and the Data team have been testing different tools for the use cases, they found some useful tools, such as JOSM and Photopea, so the Data team are including them in its workflows, and they currently getting good results in turns of time and quality.
+Currently generating machine learning segmentation training data is challenging work, Development Seed engineers and the Data team have been testing different tools for the use cases, they found some useful tools, such as JOSM and Photopea, so the Data team are including these tools in its workflows, and they currently getting good results in turns of time and quality.
 
 <figure class="align-center">
   <img src="/assets/images/flowchart_segmentation.png"/>
@@ -43,10 +43,10 @@ The following table shows Data team stats in segmentation work.
 
 ## Data team's segmentation tools
 
-The list below of shows the tools that Data team use for segmentation work.
+The list below shows the tools that the Data team uses for segmentation work.
 
 ### Photopea
-Photopea is a web-based photo & graphics editor which can work with raster and vector graphics, it has a magic wand tools, which helps increasing speed labeling work.
+Photopea is a web-based photo & graphics editor which can work with raster and vector graphics, it has a magic wand option, which helps increase speed labeling work.
 
 <figure class="align-center">
   <img src="/assets/images/segmentation_tool_photopea.gif"/>
@@ -56,11 +56,11 @@ Photopea is a web-based photo & graphics editor which can work with raster and v
 
 ### Java OpenStreetMap editor
 
-Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool works with map tiles. JOSM allows drawing polygons easily in large areas and moving around the map tiles. JOSM works together with [osm-seed](https://github.com/developmentseed/osm-seed) a backed tool for storing the version of each polygon.
+Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool works with map tiles. JOSM allows drawing polygons easily in large areas and moving around the map tiles. JOSM works together with [osm-seed](https://github.com/developmentseed/osm-seed) a backed tool for storing the version of each polygon. JOSM tool is useful when is needed to annotate several classes.
 
 <figure class="align-center">
   <img src="/assets/images/segmentation_tool_josm.gif"/>
-  <figcaption>The gif shows the annotation of 4 different classes as grass/shrub, other impervious, tree canopy, and building. JOSM tool is useful when is needed to annotate several classes.</figcaption>
+  <figcaption>The gif shows the annotation of 4 different classes as grass/shrub, other impervious, tree canopy, and building.</figcaption>
 </figure>
 
 ## Data team's segmentation projects

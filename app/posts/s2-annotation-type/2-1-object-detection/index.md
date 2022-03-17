@@ -45,7 +45,7 @@ The table below indicates the Data team's average on the objects annotation.
 
 ## Data team's object detection tools
 
-The list below of shows the tools that Data team use for image object detection work.
+The list below shows the tools that the Data team uses for image object detection work.
 
 ### CVAT
 
