@@ -49,7 +49,7 @@ The list below shows the tools that the Data team uses for image object detectio
 
 ### CVAT
 
-Computer Vision Annotation Tool (CVAT) is a free, open-source, web-based image and video annotation tool. Is easily setup the CVAT server.
+Computer Vision Annotation Tool ([CVAT](https://github.com/openvinotoolkit/cvat)) is a free, open-source, web-based image and video annotation tool. Is easily setup the CVAT server.
 
 <figure class="align-center">
   <img src="/assets/images/object_detection_tool_cvat.gif"/>
@@ -58,7 +58,7 @@ Computer Vision Annotation Tool (CVAT) is a free, open-source, web-based image a
 
 ### Java OpenStreetMap editor
 
-Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool works with map tiles. JOSM allows drawing polygons easily in large areas and moving around the map tiles. JOSM works together with [osm-seed](https://github.com/developmentseed/osm-seed) a backed tool for storing the version of each polygon.
+Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an open-source tool. The JOSM tool works with map tiles. JOSM allows drawing polygons easily in large areas and moving around the map tiles. JOSM works together with [osm-seed](https://github.com/developmentseed/osm-seed) a backed tool for storing the version of each polygon.
 
 <figure class="align-center">
   <img src="/assets/images/object_detection_tool_josm.gif"/>
@@ -67,4 +67,5 @@ Java OpenStreetMap editor, known as JOSM is an open-source tool. The JOSM tool w
 
 ## Data team's object detection projects
 
-- [Housing Passport](/highlighted-projects/housing-passport/)
+- [Housing Passports](/highlighted-projects/housing-passports/)
+- [Road Safety](/highlighted-projects/road-safety/)

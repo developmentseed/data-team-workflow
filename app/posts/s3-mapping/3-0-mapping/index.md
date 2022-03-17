@@ -4,7 +4,7 @@ date: 2012-08-20
 layout: post.html
 ---
 
-The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
+The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
 
 The Data team <b>average</b>, for doing the mapping <b>buildings and highways</b>, is classified according to the area density as low, intermediate, and high.
 
@@ -109,8 +109,8 @@ Also, the Data team <b>average</b>, for doing the mapping <b>field farms</b>, is
 ## Data team's mapping tools
 The Data team, for mapping, use these tools:
 
-- [JOSM](https://josm.openstreetmap.de/) as an editor, where Data team can do easier and faster the editions.
-- [Tasking Manager](https://tasks.developmentseed.org/), for dividing the AOI into small areas in order to each mapper can select a task, and avoid conflicts.
+- [JOSM](https://josm.openstreetmap.de/) as an editor, where the Data team can do easier and faster the editions.
+- [Tasking Manager](https://github.com/hotosm/tasking-manager), for dividing the AOI into small areas in order to each mapper can select a task, and avoid conflicts.
 - [OpenStreetMap](https://www.openstreetmap.org/), a collaborative project to create free and editable maps.
 
 ## Data team's mapping projects
