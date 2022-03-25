@@ -117,7 +117,7 @@ The Data team, for mapping, use these tools:
 
 The following list shows the mapping projects where the Data team has worked.
 
-- [Traicing San Francisco buildings](/highlighted-projects/tracing-san-francisco-buildings/)
+- [Tracing San Francisco buildings](/highlighted-projects/tracing-san-francisco-buildings/)
 - [Mapping and aligning road network in Taiwan based on new Mapbox imagery and Strava](/highlighted-projects/mapping-and-aligning-road-network-in-taiwan-based-on-new-mapbox-imagery-and-strava/)
 - [Los Angeles building import](/highlighted-projects/los-angeles-building-import/)
 - [Turn lanes mapping project](/highlighted-projects/turn-lanes-mapping-project/)
