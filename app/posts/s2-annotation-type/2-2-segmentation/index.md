@@ -11,36 +11,6 @@ Currently generating machine learning segmentation training data is challenging 
   <figcaption>Input, tools, and output diagram for segmentation.</figcaption>
 </figure>
 
-The following table shows Data team stats in segmentation work.
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Classes per image</th>
-      <th scope="col">Images per hour</th>
-      <th scope="col">Min/Max image size in pixels</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>6</td>
-    <td>2048x2048 <strong>/</strong>6404×4175</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>5</td>
-      <td>2048x2048 <strong>/</strong>6404×4175</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>4</td>
-      <td>2048x2048 <strong>/</strong>6404×4175</td>
-    </tr>
-  </tbody>
-</table>
-</br>
-
 ## Data team's segmentation tools
 
 The list below shows the tools that the Data team uses for segmentation work.

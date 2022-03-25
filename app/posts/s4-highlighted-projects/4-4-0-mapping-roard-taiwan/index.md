@@ -1,5 +1,5 @@
 ---
-title: Mapping and aligning road network in Taiwan based on new Mapbox imagery and Strava
+title: Mapping and aligning road network in Taiwan
 date: 2012-08-23
 layout: post.html
 ---
