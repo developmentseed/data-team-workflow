@@ -30,7 +30,7 @@ Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an
 
 <figure class="align-center">
   <img src="/assets/images/segmentation_tool_josm.gif"/>
-  <figcaption>The gif shows the annotation of 4 different classes as grass/shrub, other impervious, tree canopy, and building.</figcaption>
+  <figcaption>The gif shows the annotation of 4 different classes as grass/shrub, other impervious (service roads, parking lots), tree canopy, and building.</figcaption>
 </figure>
 
 ## Data team's segmentation projects
