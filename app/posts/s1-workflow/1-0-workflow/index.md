@@ -11,7 +11,7 @@ Development Seed's Data team has a structured and efficient workflow that involv
  <figcaption>Data team workflow</figcaption>
 </figure>
  
-Once the Data team knows the requirements of the customer and has access to the data input, they start the development of the project based on their workflow that contains 3 main processes: data exploration & workflow, data annotation, and delivering output data; in each of these processes, different activities are developed until the training data is obtained.
+Once the Data team knows the requirements of the customer and has access to the data input, they start the development of the project based on their workflow that contains three main processes: data exploration & workflow, data annotation, and delivering output data. In each of these processes, different activities are developed until the training data is obtained.
  
 During all of these processes, the Data team is in constant communication with the customer to ensure that their requirements are met and provide feedback on the annotated classes to ensure they are suitable for machine learning models.
  
