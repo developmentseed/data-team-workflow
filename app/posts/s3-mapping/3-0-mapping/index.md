@@ -118,10 +118,10 @@ The Data team, for mapping, use these tools:
 The following list shows the mapping projects where the Data team has worked.
 
 - [Tracing San Francisco buildings](/highlighted-projects/tracing-san-francisco-buildings/)
-- [Mapping and aligning road network in Taiwan based on new Mapbox imagery and Strava](/highlighted-projects/mapping-and-aligning-road-network-in-taiwan-based-on-new-mapbox-imagery-and-strava/)
+- [Mapping and aligning road network in Taiwan](/highlighted-projects/mapping-and-aligning-road-network-in-taiwan/)
 - [Los Angeles building import](/highlighted-projects/los-angeles-building-import/)
 - [Turn lanes mapping project](/highlighted-projects/turn-lanes-mapping-project/)
 - [Machine learning tower detection and mapping work](/highlighted-projects/machine-learning-tower-detection-and-mapping-work/)
 - [Farm fields mapping](/highlighted-projects/farm-fields-mapping/)
 - [Mapping commercial farms in Ethiopia](/highlighted-projects/mapping-commercial-farms-in-ethiopia/)
-- [Indonesian Earthquake Mapping](/highlighted-projects/indonesian-earthquake-mapping/)
+- [Indonesian earthquake mapping](/highlighted-projects/indonesian-earthquake-mapping/)

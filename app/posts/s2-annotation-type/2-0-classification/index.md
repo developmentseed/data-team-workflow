@@ -1,5 +1,5 @@
 ---
-title: Image Classification
+title: Image classification
 date: 2012-08-20
 layout: post.html
 ---
@@ -85,4 +85,4 @@ Java OpenStreetMap editor, known as [JOSM](https://josm.openstreetmap.de/) is an
 
 The following list shows the projects of image classification for Machine Learning training data.
 
-- [Project-connect](/highlighted-projects/project-connect/)
+- [Project connect](/highlighted-projects/project-connect/)

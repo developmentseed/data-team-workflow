@@ -4,7 +4,7 @@ date: 2012-08-23
 layout: post.html
 ---
 
-At the beginning of 2018 Development Seed and the World Bank ran a project of Identification on HV, Infrastructure for developing countries, Pakistan, Zambia, and Nigeria.
+At the beginning of 2018 Development Seed and the World Bank ran a project of identification on high-voltage, infrastructure for developing countries, Pakistan, Zambia, and Nigeria.
 
 The strategy was, running an ML to identify tower across of those 3 countries and then the Data team jump to map those places, this was a really challenging work, making the organization of the resources in ML and on the Mapping side.
 
