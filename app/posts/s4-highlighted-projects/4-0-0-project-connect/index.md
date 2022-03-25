@@ -15,7 +15,7 @@ Finally, the Data team validated around **120k schools points**, adding one of t
 
 ### Post inference validation
 
-Development Seed's Data performed a validation of the ML inferences from 8 countries (Kazakhstan, Kenya, Rwanda, Niger, Honduras, Uzbekistan, Sierra Leone, and Ghana), validating more than **113k schools tiles**.
+Development Seed's Data team performed a validation of the ML inferences from 8 countries (Kazakhstan, Kenya, Rwanda, Niger, Honduras, Uzbekistan, Sierra Leone, and Ghana), validating more than **113k schools tiles**.
 
 <figure class="align-center">
   <img src="/assets/images/pc_map_visualization.gif"/>

@@ -5,7 +5,7 @@ layout: post.html
 ---
 
 One of the big projects related to navigation and guidance in which the Data team participated was the turn lanes mapping in more than [30 cities in the US](https://github.com/mapbox/mapping/issues/180).
-Turn-lanes provide directional information to the ongoing vehicles and the lane information to be chosen for the vehicles changing their direction. So turn lane information is crucial for providing great turn-by-turn guidance in navigation applications.
+Turn-lanes provide directional information to the ongoing vehicles and the lane information to be chosen for the vehicles changing their direction. So, turn lane information is crucial for providing great turn-by-turn guidance in navigation applications.
 
 <figure class="align-center">
   <img src="/assets/images/mapping_4.jpg"/>
