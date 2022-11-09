@@ -1,5 +1,5 @@
 ---
-title: Turn lanes mapping project
+title: Turn lanes mapping
 date: 2012-08-23
 layout: post.html
 ---
