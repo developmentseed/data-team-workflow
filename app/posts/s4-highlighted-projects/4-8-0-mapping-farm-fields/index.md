@@ -12,8 +12,3 @@ On this project, the Data team saw fit to customize the JOSM tool, where mappers
   <img src="/assets/images/mapping_5.gif"/>
   <figcaption>Example of how fast the Data team mapped the farm fields.</figcaption>  
 </figure>
-
-<figure class="align-center">
-  <img src="/assets/images/mapping_5.png"/>
-  <figcaption>Examples of farms mapped.</figcaption>  
-</figure>
