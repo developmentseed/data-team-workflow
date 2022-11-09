@@ -1,5 +1,5 @@
 ---
-title: Tracing San Francisco buildings
+title: Buildings mapping in San Francisco 
 date: 2012-08-23
 layout: post.html
 ---

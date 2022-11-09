@@ -1,5 +1,5 @@
 ---
-title: Indonesian earthquake mapping
+title: Earthquake mapping in Indonesia
 date: 2012-08-23
 layout: post.html
 ---
