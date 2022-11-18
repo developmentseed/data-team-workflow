@@ -6,105 +6,11 @@ layout: post.html
 
 The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
 
-The Data team <b>average</b>, for doing the mapping <b>buildings and highways</b>, is classified according to the area density as low, intermediate, and high.
+The Data team offers data with high quality and also a good average on mapping. However, the density and complexity of the features to map, and the quality of the satellite imagery influence the mapping averages, so these are some factors the Data team takes into account when making a quote.  
 
-<table class="table">
-  <thead>
-    <tr>   
-      <th scope="col">Feature</th>
-      <th scope="col">Density area</th>        
-      <th scope="col">Area</th>      
-      <th scope="col">Time (hour)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Building</td>
-      <td>Low</td>
-      <td>1km²</td>
-      <td>0.67</td>
-    </tr>
-    <tr>
-      <td>Building</td>    
-      <td>Intermediate</td>
-      <td>1km²</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>Building</td>    
-      <td>High</td>
-      <td>1km²</td>
-      <td>10</td>
-    </tr>    
-  </tbody> 
-</table>
-</br>
+In the case of buildings and highways, the mapping average is classified according to the density as low, intermediate, and high.
 
-<table class="table">
-  <thead>
-    <tr>   
-      <th scope="col">Feature</th>
-      <th scope="col">Density area</th>        
-      <th scope="col">Area</th>      
-      <th scope="col">Time (hour)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highway</td>
-      <td>Low</td>
-      <td>1km²</td>
-      <td>0.15</td>
-    </tr>
-    <tr>
-      <td>Highway</td>    
-      <td>Intermediate</td>
-      <td>1km²</td>
-      <td>0.25</td>
-    </tr>
-    <tr>
-      <td>Highway</td>    
-      <td>High</td>
-      <td>1km²</td>
-      <td>0.25</td>
-    </tr>    
-  </tbody>  
-</table>
-</br>
-
-Also, the Data team <b>average</b>, for doing the mapping <b>field farms</b>, is classified according to the farm complexity as low, intermediate, and high.
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Feature</th>    
-      <th scope="col">Complexity</th>     
-      <th scope="col">N° farms</th>
-      <th scope="col">Time (hour)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Farm</td>
-      <td>Low</td>
-      <td>60</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Farm</td>
-      <td>Intermediate</td>
-      <td>40</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Farm</td>
-      <td>High</td>
-      <td>20</td>
-      <td>1</td>
-    </tr>    
-  </tbody>
-</table>
-</br>
+On the other hand, in the case of farms, the mapping average is classified according to the complexity as low, medium, and high.  
 
 ## Data team's mapping tools
 The Data team, for mapping, use these tools:
