@@ -4,7 +4,7 @@ date: 2012-08-20
 layout: post.html
 ---
 
-The Data team, has mapped, and edited more than 25 million objects in OpenStreetMap, and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
+The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
 
 The Data team offers data with high quality and also a good average on mapping. However, the density and complexity of the features to map, and the quality of the satellite imagery influence the mapping averages, so these are some factors the Data team takes into account when making a quote.  
 
