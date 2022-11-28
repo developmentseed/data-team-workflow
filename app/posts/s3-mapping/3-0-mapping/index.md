@@ -38,8 +38,7 @@ For mapping buildings, the Data team average varies according to the density of 
     </tr>
   </tbody>
 </table>
-<br>
-</br>
+<br></br>
 
 The table below indicates the average mapping time of buildings per square kilometer.
 
@@ -69,7 +68,6 @@ The table below indicates the average mapping time of buildings per square kilom
     </tr>    
   </tbody> 
 </table>
-</br>
 
 ### - Highway:
 For mapping highways, the Data team average varies according to the density of the buildings that are in an area. This density is classified as low, intermediate, and high.
@@ -101,8 +99,7 @@ For mapping highways, the Data team average varies according to the density of t
     </tr>
   </tbody>
 </table>
-<br>
-</br>
+<br></br>
 
 The table below indicates the average mapping time of highways per square kilometer.
 
@@ -132,7 +129,6 @@ The table below indicates the average mapping time of highways per square kilome
     </tr>    
   </tbody>  
 </table>
-</br>
 
 ### - Farm field:
 For mapping farm fields, the Data team average varies according to the farm field shape complexity. This shape complexity is classified as low, medium, and high.
@@ -164,6 +160,7 @@ For mapping farm fields, the Data team average varies according to the farm fiel
     </tr>
   </tbody>
 </table>
+<br></br>
 
 The table below indicates the average mapping time of farm fields.
 
@@ -193,7 +190,6 @@ The table below indicates the average mapping time of farm fields.
     </tr>    
   </tbody>
 </table>
-</br>
 
 ## Data team's mapping tools
 The Data team, for mapping, use these tools:
