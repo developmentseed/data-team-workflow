@@ -36,7 +36,7 @@
 
 
 
-<link rel="stylesheet" href="http://devseed.com/data-team-workflow/assets/styles/main-ecc93e445e.css">
+<link rel="stylesheet" href="http://devseed.com/data-team-workflow/assets/styles/main-279a931439.css">
 
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
     <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
@@ -97,6 +97,66 @@
   <li>
       
       <a href="http://devseed.com/data-team-workflow/workflow/general-workflow" title="Go to page" class="ppn__menu-item ">General workflow</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/data-input" title="Go to page" class="ppn__menu-item ">Data input</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/data-exploration-workflow" title="Go to page" class="ppn__menu-item ">Data exploration &amp; workflow</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/data-annotation" title="Go to page" class="ppn__menu-item ">Data annotation</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/delivering-data-output" title="Go to page" class="ppn__menu-item ">Delivering data output</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/quality-assurance" title="Go to page" class="ppn__menu-item ">Quality assurance</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="http://devseed.com/data-team-workflow/workflow/continuous-communication" title="Go to page" class="ppn__menu-item ">Continuous communication</a>
       
 
 
@@ -364,101 +424,178 @@
               <div class="inner">
                 <div class="prose prose--responsive">
                   <p>The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.</p>
-<p>The Data team <b>average</b>, for doing the mapping <b>buildings and highways</b>, is classified according to the area density as low, intermediate, and high.</p>
+<p>The Data team offers data with high quality and also a good average on mapping, the average on mapping varies according to the density and complexity of the features to map, and also of the satellite imagery quality. Here there is the Data team average per each feature:</p>
+<h3>- Building:</h3>
+<p>For mapping buildings, the Data team average varies according to the density of the buildings that are in an area. This density is classified as low, intermediate, and high.</p>
 <table class="table">
   <thead>
-    <tr>   
-      <th scope="col">Feature</th>
-      <th scope="col">Density area</th>        
-      <th scope="col">Area</th>      
-      <th scope="col">Time (hour)</th>
+    <tr>
+      <th scope="col"; style="width: 25%; text-align: center">Low</th>
+      <th scope="col"; style="width: 25%; text-align: center">Intermediate</th>
+      <th scope="col"; style="width: 25%;text-align: center">High</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Building</td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/building_low_density.png"/>            
+      </td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/building_intermediate_density.png"/>            
+      </td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/building_high_density.png"/>            
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify; padding: 12px;">Where there are only a few buildings. This density type can be seen in rural areas.</td>
+      <td style="text-align: justify; padding: 12px;">Where there are a lot of buildings. This density type can be seen in urban areas.</td>
+      <td style="text-align: justify; padding: 12px;">Where there are a lot of buildings, in addition, the buildings are well together. This density type can be seen in urban areas.</td>
+    </tr>
+  </tbody>
+</table>
+<br></br>
+<p>The table below indicates the average mapping time of buildings per square kilometer.</p>
+<table class="table">
+  <thead>
+    <tr>   
+      <th scope="col"; style="width: 25%">Density area</th>        
+      <th scope="col"; style="width: 25%">Area</th>      
+      <th scope="col"; style="width: 25%">Time (hour)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>Low</td>
       <td>1km²</td>
       <td>0.67</td>
     </tr>
-    <tr>
-      <td>Building</td>    
+    <tr>    
       <td>Intermediate</td>
       <td>1km²</td>
       <td>4</td>
     </tr>
-    <tr>
-      <td>Building</td>    
+    <tr>    
       <td>High</td>
       <td>1km²</td>
       <td>10</td>
     </tr>    
   </tbody> 
 </table>
-</br>
+<h3>- Highway:</h3>
+<p>For mapping highways, the Data team average varies according to the density of the buildings that are in an area. This density is classified as low, intermediate, and high.</p>
 <table class="table">
   <thead>
-    <tr>   
-      <th scope="col">Feature</th>
-      <th scope="col">Density area</th>        
-      <th scope="col">Area</th>      
-      <th scope="col">Time (hour)</th>
+    <tr>
+      <th scope="col"; style="width: 25%; text-align: center">Low</th>
+      <th scope="col"; style="width: 25%; text-align: center">Intermediate</th>
+      <th scope="col"; style="width: 25%;text-align: center">High</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Highway</td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/highway_low_density.png"/>            
+      </td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/highway_intermediate_density.png"/>            
+      </td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/highway_high_density.png"/>            
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify; padding: 12px;">Where there are only a few highways. This density type can be seen in rural areas.</td>
+      <td style="text-align: justify; padding: 12px;">Where there are a lot of highways. This density type can be seen in urban areas.</td>
+      <td style="text-align: justify; padding: 12px;">Where there are a lot of highways. This density type can be seen in urban areas.</td>
+    </tr>
+  </tbody>
+</table>
+<br></br>
+<p>The table below indicates the average mapping time of highways per square kilometer.</p>
+<table class="table">
+  <thead>
+    <tr>   
+      <th scope="col"; style="width: 25%">Density area</th>        
+      <th scope="col"; style="width: 25%">Area</th>      
+      <th scope="col"; style="width: 25%">Time (hour)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>Low</td>
       <td>1km²</td>
       <td>0.15</td>
     </tr>
-    <tr>
-      <td>Highway</td>    
+    <tr>    
       <td>Intermediate</td>
       <td>1km²</td>
       <td>0.25</td>
     </tr>
-    <tr>
-      <td>Highway</td>    
+    <tr>    
       <td>High</td>
       <td>1km²</td>
       <td>0.25</td>
     </tr>    
   </tbody>  
 </table>
-</br>
-<p>Also, the Data team <b>average</b>, for doing the mapping <b>field farms</b>, is classified according to the farm complexity as low, intermediate, and high.</p>
+<h3>- Farm field:</h3>
+<p>For mapping farm fields, the Data team average varies according to the farm field shape complexity. This shape complexity is classified as low, medium, and high.</p>
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Feature</th>    
-      <th scope="col">Complexity</th>     
-      <th scope="col">N° farms</th>
-      <th scope="col">Time (hour)</th>
+      <th scope="col"; style="width: 25%; text-align: center">Low</th>
+      <th scope="col"; style="width: 25%; text-align: center">Medium</th>
+      <th scope="col"; style="width: 25%; text-align: center">High</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Farm</td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/farm_low_complexity.png"/>            
+      </td>
+      <td>
+        <img src="http://devseed.com/data-team-workflow/assets/images/farm_medium_complexity.png"/>               
+      </td>
+      <td> 
+        <img src="http://devseed.com/data-team-workflow/assets/images/farm_high_complexity.png"/>               
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify; padding: 12px;">Where the farm field shape is simple.</td>
+      <td style="text-align: justify; padding: 12px;">Where the farm field shape has a few edges.</td>
+      <td style="text-align: justify; padding: 12px;">Where the farm field shape has complex edges.</td>
+    </tr>
+  </tbody>
+</table>
+<br></br>
+<p>The table below indicates the average mapping time of farm fields.</p>
+<table class="table">
+  <thead>
+    <tr>   
+      <th scope="col"; style="width: 25%">Complexity</th>     
+      <th scope="col"; style="width: 25%">N° farm fields</th>
+      <th scope="col"; style="width: 25%">Time (hour)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>Low</td>
       <td>60</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Farm</td>
       <td>Intermediate</td>
       <td>40</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Farm</td>
       <td>High</td>
       <td>20</td>
       <td>1</td>
     </tr>    
   </tbody>
 </table>
-</br>
 <h2>Data team's mapping tools</h2>
 <p>The Data team, for mapping, use these tools:</p>
 <ul>
@@ -469,14 +606,15 @@
 <h2>Data team's mapping projects</h2>
 <p>The following list shows the mapping projects where the Data team has worked.</p>
 <ul>
-<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/tracing-san-francisco-buildings/">Tracing San Francisco buildings</a></li>
+<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/earthquake-mapping-in-indonesia/">Earthquake mapping in Indonesia</a></li>
+<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/camps-mapping-in-chad/">Camps mapping in Chad</a></li>
+<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/buildings-mapping-in-san-francisco/">Buildings mapping in San Francisco</a></li>
 <li><a href="http://devseed.com/data-team-workflow/highlighted-projects/mapping-and-aligning-road-network-in-taiwan/">Mapping and aligning road network in Taiwan</a></li>
 <li><a href="http://devseed.com/data-team-workflow/highlighted-projects/los-angeles-building-import/">Los Angeles building import</a></li>
-<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/turn-lanes-mapping-project/">Turn lanes mapping project</a></li>
+<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/turn-lanes-mapping/">Turn lanes mapping project</a></li>
 <li><a href="http://devseed.com/data-team-workflow/highlighted-projects/machine-learning-tower-detection-and-mapping-work/">Machine learning tower detection and mapping work</a></li>
 <li><a href="http://devseed.com/data-team-workflow/highlighted-projects/farm-fields-mapping/">Farm fields mapping</a></li>
-<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/mapping-commercial-farms-in-ethiopia/">Mapping commercial farms in Ethiopia</a></li>
-<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/indonesian-earthquake-mapping/">Indonesian earthquake mapping</a></li>
+<li><a href="http://devseed.com/data-team-workflow/highlighted-projects/commercial-farms-mapping-in-ethiopia/">Commercial farms mapping in Ethiopia</a></li>
 </ul>
 
                 </div>
@@ -524,6 +662,6 @@
 
     <script src="http://devseed.com/data-team-workflow/assets/scripts/vendor-67b5af6d23.js"></script>
 
-<script src="http://devseed.com/data-team-workflow/assets/scripts/bundle-1c9e0f7e1d.js"></script>
+<script src="http://devseed.com/data-team-workflow/assets/scripts/bundle-5ef1403dab.js"></script>
   </body>
 </html>
