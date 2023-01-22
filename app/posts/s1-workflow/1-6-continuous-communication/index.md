@@ -9,4 +9,4 @@ layout: post.html
  <figcaption>Continuous communication</figcaption>
 </figure>
 
-The Data team is in constant communication with the customers throughout all the processes of the workflow to ensure that their requirements are met and provide feedback on the annotated classes to ensure they are suitable for machine learning models.
+The Data team is in constant contact with the partners throughout the workflow processes to ensure that their requirements are met and provide feedback that the annotated classes are suitable for machine learning models.
