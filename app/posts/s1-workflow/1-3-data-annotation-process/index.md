@@ -11,7 +11,7 @@ layout: post.html
 
 Once the Data is familiar with the input data, created any custom tools, and a well-documented annotation workflow, the Data team performs the data annotation or mapping. The different annotation types that the Data team has experience with:
  
-- [Image classification](/../annotation-type/image-classification/)
-- [Object detection](/../annotation-type/object-detection/)
-- [Segmentation](/../annotation-type/segmentation/)
-- [Mapping](/../mapping/mapping/)
+- [Image classification](/annotation-type/image-classification/)
+- [Object detection](/annotation-type/object-detection/)
+- [Segmentation](/annotation-type/segmentation/)
+- [Mapping](/mapping/mapping/)

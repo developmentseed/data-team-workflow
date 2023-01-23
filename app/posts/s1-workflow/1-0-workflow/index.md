@@ -11,15 +11,15 @@ Development Seed's Data team has a structured and efficient workflow that includ
  <figcaption>Data team workflow</figcaption>
 </figure>
  
-Once the project requirements and [data inputs](/../workflow/data-input/) are established, the project development workflow contains three main processes: [data exploration and engineering](/../workflow/data-exploration-and-engineering/), [data annotation](/../workflow/data-annotation/), and [data output](/../workflow/data-output/). Customized workflows are developed and refined within each process until the training dataset is complete.
+Once the project requirements and [data inputs](/workflow/data-input/) are established, the project development workflow contains three main processes: [data exploration and engineering](/workflow/data-exploration-and-engineering/), [data annotation](/workflow/data-annotation/), and [data output](/workflow/data-output/). Customized workflows are developed and refined within each process until the training dataset is complete.
  
-Alongside the technical workflow customization during project development, [quality assurance](/../workflow/quality-assurance/) and [continuous communication](/../workflow/continuous-communication/) ensure the training data aligns with the partner’s expectations.
+Alongside the technical workflow customization during project development, [quality assurance](/workflow/quality-assurance/) and [continuous communication](/workflow/continuous-communication/) ensure the training data aligns with the partner’s expectations.
 
 In the following sections about our workflow processes, you can find more details:
 
-- [Data input](/../workflow/data-input/)
-- [Data exploration and engineering](/../workflow/data-exploration-and-engineering/)
-- [Data annotation](/../workflow/data-annotation/)
-- [Data output](/../workflow/data-output/)
-- [Quality assurance](/../workflow/quality-assurance/)
-- [Continuous communication](/../workflow/continuous-communication/)
+- [Data input](/workflow/data-input/)
+- [Data exploration and engineering](/workflow/data-exploration-and-engineering/)
+- [Data annotation](/workflow/data-annotation/)
+- [Data output](/workflow/data-output/)
+- [Quality assurance](/workflow/quality-assurance/)
+- [Continuous communication](/workflow/continuous-communication/)
