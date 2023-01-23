@@ -9,6 +9,6 @@ layout: post.html
  <figcaption>Data input</figcaption>
 </figure>
 
-The data input for a project could be of any data format such as vector data, street view images, raster data, satellite images, and map layers (e.g. TMS, WMS, COGS, TIFF, etc.). The Data team has extensive experience in handling all these data formats, so this allows it to cover different data inputs and start a project without any issues.
+The data input for a project could be vector data, street view images, raster data, satellite imagery, and map layers (e.g. TMS, WMS, COGS, TIFF, etc.). The Data team has extensive experience handling all these data formats without any issues.
 
-Talking about data sources, in some projects, customers can come with their own data to be processed, or in some cases, customers want to use public data, but usually, an annotation project could have different data sources and could involve different data formats.
+In some projects, partners provide their data to be processed, or you may want to use public data. One annotation project can have multiple data sources and involve different data formats. The data inputs will, in part, dictate the complexity of the workflow.

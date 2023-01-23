@@ -4,12 +4,14 @@ date: 2012-08-20
 layout: post.html
 ---
 
-The Data team has mapped and edited more than 25 million objects in OpenStreetMap and created routable road networks for the biggest names in navigation, so Development Seed's Data team is among the best in the world at creating and improving map data. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards. Something to keep in mind is that the Data team members come to Development Seed from Mapbox where they worked on several of the biggest and toughest mapping challenges.
+Development Seed's Data team is among the best in the world at developing and improving map data. The Data team worked on several of the biggest and toughest mapping challenges, they mapped and edited more than 25 million objects in OpenStreetMap (OSM) and created routable road networks for the biggest names in navigation like Mapbox. The Data team has extensive experience with the OSM ecosystem, software stack, and metadata standards.
 
-The Data team offers data with high quality and also a good average on mapping, the average on mapping varies according to the density and complexity of the features to map, and also of the satellite imagery quality. Here there is the Data team average per each feature:
+The Data team maps at an average speed and quality unparalleled in the industry. The average mapping time varies depending on the density and complexity of the features to map as well as the quality of the satellite imagery. 
+
+Here are some examples of the different types of mapping complexity that could impact mapping speed:
 
 ### - Building:
-For mapping buildings, the Data team average varies according to the density of the buildings that are in an area. This density is classified as low, intermediate, and high.
+For mapping buildings, the Data team average mapping time varies according to the density of the buildings in an area. This density is classified as low, intermediate, and high.
 
 <table class="table">
   <thead>
@@ -70,7 +72,7 @@ The table below indicates the average mapping time of buildings per square kilom
 </table>
 
 ### - Highway:
-For mapping highways, the Data team average varies according to the density of the buildings that are in an area. This density is classified as low, intermediate, and high.
+For mapping highways, the Data team average mapping time varies according to the density of the highways in an area. This density is classified as low, intermediate, and high.
 
 <table class="table">
   <thead>
@@ -94,7 +96,7 @@ For mapping highways, the Data team average varies according to the density of t
     </tr>
     <tr>
       <td style="text-align: justify; padding: 12px;">Where there are only a few highways. This density type can be seen in rural areas.</td>
-      <td style="text-align: justify; padding: 12px;">Where there are a lot of highways. This density type can be seen in urban areas.</td>
+      <td style="text-align: justify; padding: 12px;">Where there are several highways. This density type can be seen in urban areas.</td>
       <td style="text-align: justify; padding: 12px;">Where there are a lot of highways. This density type can be seen in urban areas.</td>
     </tr>
   </tbody>
@@ -131,7 +133,7 @@ The table below indicates the average mapping time of highways per square kilome
 </table>
 
 ### - Farm field:
-For mapping farm fields, the Data team average varies according to the farm field shape complexity. This shape complexity is classified as low, medium, and high.
+For mapping farm fields, the Data team average mapping time varies according to the farm field shape complexity. This shape complexity is classified as low, medium, and high.
 
 <table class="table">
   <thead>
@@ -192,10 +194,10 @@ The table below indicates the average mapping time of farm fields.
 </table>
 
 ## Data team's mapping tools
-The Data team, for mapping, use these tools:
+The Data team uses these tools for mapping:
 
-- [JOSM](https://josm.openstreetmap.de/) as an editor, where the Data team can do easier and faster the editions.
-- [Tasking Manager](https://github.com/hotosm/tasking-manager), for dividing the AOI into small areas in order to each mapper can select a task, and avoid conflicts.
+- [JOSM](https://josm.openstreetmap.de/) as an editor, where the Data team can do edits faster and easier.
+- [Tasking Manager](https://github.com/hotosm/tasking-manager), for dividing the AOI into small areas so each mapper can select a task and avoid conflicts.
 - [OpenStreetMap](https://www.openstreetmap.org/), a collaborative project to create free and editable maps.
 
 ## Data team's mapping projects
