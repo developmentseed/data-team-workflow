@@ -15,7 +15,7 @@ Once the project requirements and [data inputs](/workflow/data-input/) are estab
  
 Alongside the technical workflow customization during project development, [quality assurance](/workflow/quality-assurance/) and [continuous communication](/workflow/continuous-communication/) ensure the training data aligns with the partner’s expectations.
 
-In the following sections about our workflow processes, you can find more details:
+In the following sections about our workflow processes, you can find more details;
 
 - [Data input](/workflow/data-input/)
 - [Data exploration and engineering](/workflow/data-exploration-and-engineering/)
